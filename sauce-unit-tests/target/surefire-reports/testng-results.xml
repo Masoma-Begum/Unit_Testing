@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-05T23:11:37 BDT" name="Surefire suite" finished-at="2025-12-05T23:11:39 BDT" duration-ms="1891">
+    <groups>
+    </groups>
+    <test started-at="2025-12-05T23:11:37 BDT" name="Surefire test" finished-at="2025-12-05T23:11:39 BDT" duration-ms="1891">
+      <class name="com.qa.login.tests.LoginServiceTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:37 BDT" name="setup" finished-at="2025-12-05T23:11:39 BDT" duration-ms="1736" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="invalidPassword_shouldReturnFalse()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:39 BDT" name="invalidPassword_shouldReturnFalse" finished-at="2025-12-05T23:11:39 BDT" duration-ms="61" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidPassword_shouldReturnFalse -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:39 BDT" name="setup" finished-at="2025-12-05T23:11:39 BDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="userNotExists_shouldReturnFalse()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:39 BDT" name="userNotExists_shouldReturnFalse" finished-at="2025-12-05T23:11:39 BDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userNotExists_shouldReturnFalse -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:39 BDT" name="setup" finished-at="2025-12-05T23:11:39 BDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validLogin_shouldReturnTrue()[pri:0, instance:com.qa.login.tests.LoginServiceTest@3c87521]" started-at="2025-12-05T23:11:39 BDT" name="validLogin_shouldReturnTrue" finished-at="2025-12-05T23:11:39 BDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLogin_shouldReturnTrue -->
+      </class> <!-- com.qa.login.tests.LoginServiceTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
